@@ -1,0 +1,319 @@
+body {
+  background-color: #F5F5F5;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+/* Grid */
+.mrow {
+  flex-shrink: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mcol-lg {
+  flex: 0 0 auto;
+  width: 35%;
+}
+
+.mcol-md {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.mcol-sm {
+  flex: 0 0 auto;
+  width: 32.5%;
+}
+
+/* Header */
+.header {
+  margin: 2% auto 2%;
+  color: #EB866E;
+}
+
+.header-one {
+  text-align: left;
+  margin: 5% auto 5%;
+}
+
+.header-two {
+  margin: 15% auto 5%;
+}
+
+.header-three {
+  text-align: right;
+  margin: 5% auto 3%;
+}
+
+.top-image-one {
+  width: 80%;
+  border-style: solid;
+  border-left: 0;
+  border-width: 10px;
+  border-color: #F5B14D;
+  margin: 15% auto auto;
+}
+
+.top-image-two {
+  width: 80%;
+  border-style: solid;
+  border-right: 0;
+  border-width: 10px;
+  border-color: #F67C68;
+}
+
+.quote {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+.author {
+  text-align: center;
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+
+.square-one {
+  background-color: #F5D7D2;
+  width: 350px;
+  height: 300px;
+  margin-left: 4%;
+  margin-top: 3%;
+  position: absolute;
+  z-index: -1;
+}
+
+.square-two {
+  background-color: #F4B18B;
+  width: 350px;
+  height: 400px;
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 4%;
+  z-index: -1;
+}
+
+/* Headings */
+.middle-header {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 3% 0 2%;
+  font-size: 2.7rem;
+}
+
+
+.text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+
+
+/* About Me */
+.about-me {
+  background-color: #EB866E;
+  position: relative;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.middle-one {
+  position: relative;
+  margin: auto 4% auto 40%;
+}
+
+.middle-two {
+  position: relative;
+  margin: auto 25% auto 2%;
+  color: #F5F5F5;
+  font-weight: 200;
+}
+
+.about-image {
+  width: 100%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #F5F5F5;
+}
+
+.about-header {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.2rem;
+}
+
+/* Skills */
+.skills {
+  margin: 7% auto 15%;
+  color: #EB866E;
+}
+
+.skill-table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 3% 5%;
+}
+
+.icon {
+color: #CDDCD2;
+text-align: center;
+margin: 5% auto 0;
+}
+
+/* Education */
+.education {
+  padding: 5% 10%;
+  background-color: #CDDCD2;
+  color: #F5F5F5;
+}
+
+.card {
+  width: 18rem;
+  height: 420px;
+  margin: 5% auto;
+  background-color: #F5F5F5;
+  color: #547860;
+}
+
+
+.edu-image {
+  height: 200px;
+}
+
+
+/* Work */
+.work {
+  padding: 5% 10%;
+  background-color: #F5F5F5;;
+  color: #547860;
+}
+
+.box {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #F5D7D2;
+  width: 60%;
+  margin: 5% auto;
+  padding: 2%;
+}
+
+.work-header {
+  font-size: 2rem;
+  padding: 2% 0;
+}
+
+.work-text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 7% 15%;
+  margin: 0;
+  background-color: #F5D7D2;
+  color: #F67C68;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  font-weight: 300;
+  padding: 2%;
+}
+
+.footer-links {
+  margin: auto 2%;
+  color: #F67C68;
+}
+
+.footer-links:hover {
+  color: #F4B18B;
+}
+
+/* Mobile */
+@media (max-width: 1024px) {
+
+  /* Grid */
+  .mcol-lg {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .mcol-sm {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  /* Header */
+  .header {
+    margin: 2% auto 2%;
+    color: #EB866E;
+  }
+
+  .header-one {
+    text-align: left;
+    margin: 1% auto 1%;
+  }
+
+  .header-two {
+    margin: 3% auto 3%;
+  }
+
+  .header-three {
+    text-align: right;
+    margin: 1% auto 3%;
+  }
+
+  .quote {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+  }
+
+  .author {
+    text-align: center;
+    font-weight: 200;
+    font-size: 1rem;
+  }
+
+  .top-image-one {
+    width: 80%;
+    border-style: solid;
+    border-left: 0;
+    border-width: 10px;
+    border-color: #F5B14D;
+    margin: 15% auto auto;
+  }
+
+  .top-image-two {
+    width: 60%;
+    border-style: solid;
+    border-right: 0;
+    border-width: 10px;
+    border-color: #F67C68;
+  }
+
+  .square-one {
+    background-color: #F5D7D2;
+    width: 300px;
+    height: 300px;
+    margin-left: 35%;
+    margin-top: 9%;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .square-two {
+    background-color: #F4B18B;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 35%;
+    z-index: -1;
+  }
+}
